@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <h1 class="page-title">Momentum</h1>
+  <span class="loading"></span>
+  <div class="error-input-container">
+    <span class="error-input"></span>
+  </div>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <div class="play-buttons">
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+        </div>
+        <div class="play-duration-container">
+          <span class="player-time audio-title"></span>
+          <input type="range" class="progress-bar play-duration" min="0" max="100" step="1"></button>
+          <span class="player-time current-time">00:00</span>
+          <span class="player-time duration-time"></span>
+        </div>
+        <div class="volume-container">
+          <button class="volume player-icon volume-medium"></button>
+          <input type="range" class="progress-bar play-volume-range" min="0" max="100" step="1"></button>
+        </div>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city"/>
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name"/>
+    </div>
+    <div class="todo-container">
+      <h2 class="todo-title"></h2>
+      <button class="todo-filter-add-button"></button>
+      <div class="todo-add-container">
+        <button class="todo-add-button"></button>
+        <input class="todo-add-input"></input>
+      </div>
+      <div class="todo-list-wrapper">
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="setting-container">
+      <button class="setting"></button>
+      <ul class="setting-list"></ul>
+    </div>
+    <div class="quote-container">
+      <button class="change-quote change-quote-active"></button>
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/todoList.js"></script>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>

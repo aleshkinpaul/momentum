@@ -1,0 +1,30 @@
+{
+  "en": [
+    {
+      "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+      "author": "Thomas Edison"
+      },
+      {
+      "text": "You can observe a lot just by watching.",
+      "author": "Yogi Berra"
+      },
+      {
+      "text": "A house divided against itself cannot stand.",
+      "author": "Abraham Lincoln"
+      }
+  ],
+  "ru": [
+    {
+      "text": "Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете",
+      "author": "Стив Макконнелл"
+    },
+    {
+      "text": "Сложность программы растет до тех пор, пока не превысит способности программиста",
+      "author": "Артур Блох. Законы Мэрфи"
+    },
+      {
+      "text": "Ходить по воде и разрабатывать программы, следуя ТЗ, очень просто… если они заморожены",
+      "author": "И. Берард"
+    }
+  ]
+}
